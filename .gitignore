@@ -1,0 +1,16 @@
+# Compiled binaries
+epsilon
+cpu_epsilon
+fp64_penalty
+gpu_info
+cpu_info
+stream
+stream.c
+
+# CUDA object files
+*.o
+*.ptx
+*.cubin
+
+# Build artifacts
+*.d

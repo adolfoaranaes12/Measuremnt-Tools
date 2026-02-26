@@ -9,6 +9,7 @@ and performance across CPU and GPU hardware.
 - `fp64_penalty.cu` — Measured FP64/FP32 performance ratio
 - `gpu_info.cu` — GPU roofline model + hardware profile
 - `cpu_info.c` — CPU roofline model + SIMD capabilities
+- `cpu_cores.c` — P-core/E-core topology, HT sibling map, mpirun affinity recommendations for OpenFOAM
 
 ## Requirements
 - CUDA Toolkit 13.0+
